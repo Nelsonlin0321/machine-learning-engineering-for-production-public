@@ -17,3 +17,4 @@ def test_accuracy():
     # Accuracy should be over 90%
     print("acc",acc)
     assert acc > 0.9999
+    good =  8/0
