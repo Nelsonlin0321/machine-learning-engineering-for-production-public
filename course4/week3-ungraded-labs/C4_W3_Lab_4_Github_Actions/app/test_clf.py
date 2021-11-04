@@ -18,3 +18,4 @@ def test_accuracy():
     print("acc",acc)
     assert acc > 0.9999
     good =  8/0
+    raise ValueError
